@@ -13,7 +13,7 @@ router.get('/author', function (req, res, next) {
 });
 
 // Página de ayuda
-router.get('/help',function(req,res,next)){
+router.get('/help',function(req,res,next){
 	res.render('Ayuda');
 });
 module.exports=router;
